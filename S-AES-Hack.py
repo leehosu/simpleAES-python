@@ -147,6 +147,7 @@ if __name__ == '__main__':
 
             decryptedPlaintext = bits16ToString(decryptedList)
             print(decryptedPlaintext)
+
             if(detectEnglish.isEnglish(decryptedPlaintext)):
                 print("Found Key!")
                 print("Key : ", bin(key), "Decrypted Message : ", decryptedPlaintext)
