@@ -12,7 +12,7 @@ python을 활용한 simple-AES 암호화 기법으로 암호화된 메시지를 
 - Number of Rounds : 2 rounds
 
 ## Overview
-![overview](./image/simpleAES_Overview.png)
+![overview](./image/overview.gif)
 
 ##  flow
 ![keyexpansion](./image/keyExpansion.png)

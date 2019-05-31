@@ -133,7 +133,7 @@ if __name__ == '__main__':
     yes = {'yes', 'y', 'ye', ''}
     no = {'no', 'n'}
 
-    choice = input("Are you want to hack on S-AES ? ").lower()
+    choice = input("S-AES로 해독 하시겠습니까? ").lower()
     if choice in yes:
         for key in range(0b01000000000000000, 0b10000000000000000):
             decryptedList = []
