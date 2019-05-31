@@ -43,7 +43,7 @@ w1 = 1111 0101
 
 # Code Review
 ## oerview
-
+![foundKey](./image/FoundKey.png)
 ## Explain
 - 암호화된 암호문
 ~~~
@@ -98,4 +98,3 @@ Encrypted to 16 bit :
 - 그렇게 되면 isEnglish에서 dictionary.txt파일에 있는 문장이 발견되면 return 하여 의미있는 문장을 찾습니다.
 - 의미 있는 문장을 찾게되면 그 문장을 찾아낸 key와 decryptedPlainText를 출력시킵니다.
 
-![foundKey](./image/FoundKey.png)
